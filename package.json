@@ -1,0 +1,35 @@
+{
+	"name": "nuxt-notes",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "nuxt dev",
+		"build": "nuxt build",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"test": "vitest",
+		"test:unit": "vitest --project unit",
+		"test:e2e": "vitest --project e2e"
+	},
+	"dependencies": {
+		"@nuxt/ui": "^4.4.0",
+		"@shikijs/markdown-it": "^3.22.0",
+		"markdown-it": "^14.1.1",
+		"nuxt": "^4.3.1",
+		"tailwindcss": "^4.1.18"
+	},
+	"devDependencies": {
+		"@iconify-json/lucide": "^1.2.90",
+		"@nuxt/test-utils": "^4.0.0",
+		"@tailwindcss/typography": "^0.5.19",
+		"@types/markdown-it": "^14.1.2",
+		"@vue/test-utils": "^2.4.6",
+		"happy-dom": "^20.6.1",
+		"playwright-core": "^1.58.2",
+		"typescript": "^5.9.3",
+		"vitest": "^4.0.18",
+		"vue-tsc": "^3.2.4"
+	}
+}

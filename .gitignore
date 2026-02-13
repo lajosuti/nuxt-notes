@@ -1,0 +1,28 @@
+# Nuxt
+.nuxt
+.output
+dist
+
+# Data
+.data
+*.sqlite3
+
+# Dependencies
+node_modules
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+.playwright-mcp
