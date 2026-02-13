@@ -104,9 +104,11 @@ nuxt-notes/
 | `npm run dev` | Start development server |
 | `npm run build` | Build for production |
 | `npm run preview` | Preview production build |
-| `npm test` | Run all tests |
+| `npm test` | Run unit and component tests |
 | `npm run test:unit` | Run unit tests only |
-| `npm run test:e2e` | Run end-to-end tests only |
+| `npm run test:e2e` | Run end-to-end tests (requires Playwright browsers, see below) |
+
+> **Note:** E2E tests require Playwright browser binaries. Install them with `npx playwright install` before running `npm run test:e2e`.
 
 ## API
 
